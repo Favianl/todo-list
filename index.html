@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To-Do List</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <h1>To-Do List</h1>
+      <section class="add-task">
+        <input
+          class="input-text"
+          type="text"
+          placeholder="Type something to do"
+          autofocus
+        />
+        <button class="add-btn">+</button>
+      </section>
+      <section class="list">
+        <ol class="tasks-list"></ol>
+      </section>
+      <div class="footer">
+        <p>Tasks to do : <span class="number-of-tasks"></span></p>
+        <button class="clear-btn">Clear</button>
+      </div>
+    </main>
+    <script src="script/app.js"></script>
+  </body>
+</html>
